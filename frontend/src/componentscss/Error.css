@@ -1,0 +1,58 @@
+.erro-home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 250px;
+}
+
+.erro-home::before{
+    position: absolute;
+    content: '404';
+    font-size: 300px;
+    z-index: 1;
+    color: navajowhite;
+}
+
+.erro-home h1,span{
+    color: black;
+    text-align: center;
+    z-index: 2;
+}
+
+.erro-home span{
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.erro-home h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.erro-home a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    color: white;
+}
+
+.erro-home div{
+    width: 240px;
+    height: 50px;
+    background-color: #2196f3;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.erro-home div:hover{
+    background-color: #e6e9ef;
+}
+
+.erro-home div:hover > a{
+    color:black;
+}
