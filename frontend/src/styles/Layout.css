@@ -10,7 +10,7 @@
   :root{
       --theme-color:cornflowerblue;
   }
-  .App{
+  .Layout{
       position: absolute;
       top: 0;
       left: 0;
